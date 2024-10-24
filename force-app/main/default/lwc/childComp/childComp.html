@@ -1,0 +1,11 @@
+<template>
+    <lightning-card variant="brand" icon-name="standard:opportunity">
+        <h1 slot="title">Child Comp</h1>
+        <div>Message from parent: {message} </div>
+        <lightning-input onchange={handleChange} type="text"></lightning-input>
+        <lightning-button label="Send Message" onclick={handleClick}></lightning-button>
+        <div slot="footer">
+            <p>Child footer</p>
+        </div>
+    </lightning-card>
+</template>

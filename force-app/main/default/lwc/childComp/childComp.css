@@ -1,0 +1,16 @@
+/* :host {
+    --slds-c-button-brand-color-background: red;
+    --slds-c-button-brand-color-border: red;
+    --slds-c-card-shadow: 0 20px 20px 0 rgba(135, 24, 59, 0.1);
+    --slds-c-card-color-border: 3, #289568;
+    --slds-c-card-sizing-border: 20px;
+    --slds-c-card-color-background: grey;
+  } */
+
+  .override-border-color {
+    border-color: var(--sds-c-card-color-border);
+  }
+
+  .override-shadow {
+    box-shadow: var(--sds-c-card-shadow);
+  }
